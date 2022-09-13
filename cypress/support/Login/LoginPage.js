@@ -1,6 +1,7 @@
 //ações que serão executadas na pagia de login
 
 const el = require('./LoginElements').ELEMENTS;
+import usr from "../../fixtures/usuarios.json";
 
 class Login {
     acessarLogin(){

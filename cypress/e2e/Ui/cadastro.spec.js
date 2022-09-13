@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 import Cadastro from '../../support/cadastro/CadastroPage';
+import usr from "../../fixtures/usuarios.json";
         
 
 describe('Funcionalidade cadasrtro', () => {
@@ -36,6 +37,9 @@ describe('Funcionalidade cadasrtro', () => {
 it('cadastro sem sucesso', () => {
     
     Cadastro.realizaCadastroinvalido4();
+    
+});
+it('cadastrar massa de dados do fixtures', () => {
     
 });
 

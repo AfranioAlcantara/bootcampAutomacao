@@ -6,7 +6,7 @@ module.exports = defineConfig({
   viewportWidth: 1140,
   viewportHeight: 768,
   defaultCommandTimeout: 10000,
-  projectId: 'idProject',
+  projectId: 'zijzek',
   e2e: {
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
     
@@ -25,4 +25,5 @@ module.exports = defineConfig({
       return config
     },
   },
+  chromeWebSecurity: false
 })

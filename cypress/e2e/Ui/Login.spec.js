@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 import Login from "../../support/Login/LoginPage";
+import usr from "../../fixtures/usuarios.json";
 
 describe('funcionaliade login', () => {
 
@@ -29,7 +30,5 @@ describe('funcionaliade login', () => {
 
         
     });
-
-        
-    
+           
 });
