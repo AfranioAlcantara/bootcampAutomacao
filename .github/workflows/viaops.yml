@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       amb:
-        description: 'Selecionar algum destes ambientes: dev / stg / hlg / prd'
+        description: 'Selecionar algum destes ambientes: dev / stg / hlg / prd / qa'
         required: false
         default: 'qa'
       browser:
